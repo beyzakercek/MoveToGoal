@@ -1,0 +1,8 @@
+<launch>
+	<rosparam file ="$(find beginner_msgsrv)/config/paramstask2.yaml" command="load" />
+	<node pkg="stage_ros" name="stageros" type="stageros" args="$(find beginner_msgsrv)/world/worldfile.world" output="screen"/>
+
+	<node pkg="beginner_msgsrv" type="projecttask2.py" name="robot0" args="0" output="screen"/>
+	<node pkg="beginner_msgsrv" type="projecttask2.py" name="robot1" args="1" output="screen"/>
+
+</launch>

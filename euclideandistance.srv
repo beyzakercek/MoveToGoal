@@ -1,0 +1,6 @@
+float64 goalpose_X
+float64 selfpose_X
+float64 goalpose_Y
+float64 selfpose_Y
+---
+float64 result

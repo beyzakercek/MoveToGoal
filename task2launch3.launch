@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="stage_ros" name="stageros" type="stageros" args="$(find beginner_msgsrv)/world/worldfile.world" output="screen"/>
+	<node pkg="beginner_msgsrv" name="projecttask" type="projecttask2.py" args="0"/>
+	<node pkg="beginner_msgsrv" name="projecttask2" type="projecttask2.py" args="1"/>
+</launch>

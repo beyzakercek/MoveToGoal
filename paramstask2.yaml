@@ -1,0 +1,13 @@
+goalX_r1: 3.0
+goalY_r1: 2.0
+goalX_r2: 1.0
+goalY_r2: 4.0
+rosdistro: 'kinetic
+
+  '
+roslaunch:
+  uris: {host_localhost__33597: 'http://localhost:33597/'}
+rosversion: '1.12.17
+
+  '
+run_id: d1c50cde-b95d-11ec-bdf3-080027b7f585
